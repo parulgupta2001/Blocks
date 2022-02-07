@@ -99,4 +99,30 @@ p {
     padding-bottom: 1rem;
 }
 
+.get-started-page-content{
+    margin-top: 10rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.get-started-page-content>h3 {
+   padding-top: 0;
+   margin-top: 0;
+
+}
+
+.elucidate {
+    margin-left: 15rem;    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+}
+
+
+
 
