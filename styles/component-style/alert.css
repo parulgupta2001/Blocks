@@ -1,3 +1,15 @@
+* {
+    --info-background-color:lightskyblue;
+    --info-color:blue;
+    --success-background-color:lightgreen;
+    --success-color:green;
+    --error-background-color: lightpink;
+    --error-color: red;
+    --warning-background-color:lightsalmon;
+    --warning-color:orangered;
+}
+
+
 
 .alert-container {
     display: flex;
@@ -17,27 +29,32 @@
     border-radius: 0.8rem;
 }
 
+.alert-main {
+    display:flex;
+    flex-direction: column;
+}
+
 .alert-info {
    
-    background-color:lightskyblue ;
-    color:blue;
+    background-color:var(--info-background-color) ;
+    color:var(--info-color);
 }
 
 .alert-success {
     
-    background-color:lightgreen ;
-    color:green;
+    background-color:var(--success-background-color) ;
+    color:var(--success-color);
 
 }
 
 .alert-error {
-    background-color:lightpink;
-    color:red;
+    background-color:var(--error-background-color);
+    color:var(--error-color);
 
 }
 
 .alert-warning {
-    background-color:lightsalmon ;
-    color:orangered;
+    background-color:var(--warning-background-color);
+    color:var(--warning-color);
 
 }
