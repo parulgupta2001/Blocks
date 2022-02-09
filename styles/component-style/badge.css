@@ -11,16 +11,15 @@
     flex-direction:column;
 }
 
-.badge-icon {
+.badge-icon-container {
     display: flex;
     column-gap: 3rem;
-    padding-top:1.5rem;
-    padding-left:1.5rem;
+    padding:1.5rem 1.5rem;
     background-color: var(--background-color);
     width:50vw;
 }
 
-.badge-icon img {
+.badge-icon-container img {
     height:2rem;
     width:2rem;
 }
@@ -36,8 +35,8 @@
     background-color: black;
 }
 
-p2 {
-    transform: translate(130%,-250%);
+.badge-icon {
+    transform: translate(130%,-250%); 
 }
 
 .badge-icon-one{
@@ -52,22 +51,21 @@ p2 {
   background-color: var(--background-color-three);  
 }
 
-.badge-avatar img {
+.badge-avatar-container img {
     border-radius:50%;
     height:4rem;
     width:4rem;
 }
 
-.badge-avatar {
+.badge-avatar-container {
     display: flex;
     column-gap: 3rem;
-    padding-top:1.5rem ;
+    padding:1.5rem 1.5rem ;
     background-color: var(--background-color);
     width:50vw;
-    padding-left: 1.5rem;
 }
 
-p3 {
+.badge-avatar {
     transform: translate(300%,-400%);
 }  
 
