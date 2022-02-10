@@ -16,8 +16,9 @@
     flex-direction: column;
     row-gap: 1rem;
     padding:2rem;
-    width:50vw;
+    width:60vw;
     background-color: var(--background-color);
+   
 }
 
 .alert {
