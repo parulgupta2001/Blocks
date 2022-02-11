@@ -1,11 +1,8 @@
-.responsive-img-container{
-    width:100%;
-}
-
 .responsive-img {
-   width:70%; 
+   width:100%; 
    object-fit:cover;
    height: auto;
+   border: solid 2px var(--color-two);
 }
 
 .main{
