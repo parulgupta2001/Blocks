@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/main-style.css">
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+</head>
+<body>
+    <nav class="navigation-bar">
+        <div class="navigation-logo"><img src="/Images/main logo.png" alt="Website logo" ></div>
+        <div class="navigation-text">
+            <div class="text-one">Docs</div>
+            <div class="text-two">Support</div>
+        </div>
+    </nav>
+
+    <aside class="sidebar">
+        <h2>Components</h2>
+        <ul>
+           <li><a href="avatar.html">Avatar</a></li> 
+            <li><a href="alert.html">Alert</a></li>
+            <li><a href="badge.html">Badge</a></li>
+            <li><a href="button.html">Button</a></li>
+            <li><a href="card.html">Card</a></li>
+            <li><a href="image.html">Image</a></li>
+            <li><a href="input.html">Input</a></li>
+            <li><a href="text-utilities.html">Text Utilities</a></li>
+            <li><a href="lists.html">Lists</a></li>
+            <li><a href="grid.html">Grid</a></li>
+    
+        </ul>   
+    </aside>
+
+    <div class="main ">
+        <div class="description">
+            <div>The card component can contain a variety of content, including a heading, image, content and buttons. Card is basically well organized collection of data related to specific topic which is easy to understand.
+            </div>
+        </div>
+
+
+        <div>
+            <p>Text only card</p>    
+            <div class="card-container">
+                <h2>Card Title</h2>
+                <h3>Card Subtitle</h3>
+                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quae dolor ut reprehenderit, non ipsam. Facere tempore nulla doloribus minima. Animi qui aliquam vero esse laudantium! Saepe porro dicta natus quod optio magni eaque vel commodi sapiente ipsum error dolore animi recusandae, quo expedita obcaecati.</div>
+            </div>
+
+            <pre>
+                <code class="language-html">
+                    &lt;div class="text-only-card"&gt;
+                        &lt;h2&gt;Card Title&lt;/h2&gt;
+                        &lt;h3&gt;Card Subtitle&lt;/h3&gt;
+                        &lt;div&gt;Card Text&lt;/div&gt;
+                     &lt;/div&gt;
+                </code>
+            </pre>
+        </div>
+
+        <div>
+            <p>Card with shadow</p>    
+            <div class="card-container shadow-card">
+                <h2>Card Title</h2>
+                <h3>Card Subtitle</h3>
+                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quae dolor ut reprehenderit, non ipsam. Facere tempore nulla doloribus minima. Animi qui aliquam vero esse laudantium! Saepe porro dicta natus quod optio magni eaque vel commodi sapiente ipsum error dolore animi recusandae, quo expedita obcaecati.</div>
+            </div>
+
+            <pre>
+                <code class="language-html">
+                    &lt;div class="text-only-card shadow card"&gt;
+                        &lt;h2&gt;Card Title&lt;/h2&gt;
+                        &lt;h3&gt;Card Subtitle&lt;/h3&gt;
+                        &lt;div&gt;Card Text&lt;/div&gt;
+                     &lt;/div&gt;
+                </code>
+            </pre>
+        </div>
+
+        <div>
+            <p>Card with badge</p>
+            <div class="badge">4.3 ★</div>
+            <div class="img-card-container">
+                <img class="img-container" src="/Images/shirt.jpg" alt="blue shirt">
+                <h2>Raymond Shirt</h2>
+                <div>Men blue pure cotton sustainable formal shirt</div>
+                <h3>₹1499</h3>
+                <div class="btn-container">
+                    <button class="add-to-cart-btn btn">ADD TO CART</button>
+                    <button class="buy-now-btn btn">BUY NOW</button>
+                </div>    
+            </div>
+
+            <pre>
+                <code class="language-html">
+                    &lt;div class="badge"&gt;4.3 ★&lt;div&gt;
+                    &lt;div class="img-card-container"&gt;
+                        &lt;img class="img-container" src="Image-source" alt=""&gt;
+                        &lt;h2&gt;Image heading&lt;/h2&gt;
+                        &lt;div&gt;Image description&lt;/div&gt;
+                        &lt;h3&gt;selling price&lt;/h3&gt;
+                        &lt;div class="btn-container"&gt;
+                            &lt;button class="add-to-cart-btn btn"&gt;ADD TO CART&lt;/button&gt;
+                            &lt;button class="buy-now-btn btn"&gt;BUY NOW&lt;/button&gt;
+                        &lt;/div&gt;    
+                    &lt;/div&gt;
+                </code>
+            </pre>
+        </div>
+
+        <div>
+            <p>Card with dismiss</p>
+            <div class="img-card-container">
+                <div class="dismiss-btn"><button>x</button></div>
+                <img class="img-container" src="/Images/shirt.jpg" alt="blue shirt">
+                <h2>Raymond Shirt</h2>
+                <div>Men blue pure cotton sustainable formal shirt</div>
+                <h3>₹1499</h3>
+                <div class="btn-container">
+                    <button class="add-to-cart-btn btn">ADD TO CART</button>
+                    <button class="buy-now-btn btn">BUY NOW</button>
+                </div>    
+            </div>
+
+            <pre>
+                <code class="language-html">
+                    &lt;div class="img-card-container"&gt;
+                        &lt;div class="dismiss-btn"&gt;&lt;button&gt;x&lt;/button&gt;&lt;/div&gt;
+                        &lt;img class="img-container" src="Image-source" alt=""&gt;
+                        &lt;h2&gt;Image heading&lt;/h2&gt;
+                        &lt;div&gt;Image description&lt;/div&gt;
+                        &lt;h3&gt;selling price&lt;/h3&gt;
+                        &lt;div class="btn-container"&gt;
+                            &lt;button class="add-to-cart-btn btn"&gt;ADD TO CART&lt;/button&gt;
+                            &lt;button class="buy-now-btn btn"&gt;BUY NOW&lt;/button&gt;
+                        &lt;/div&gt;    
+                    &lt;/div&gt;
+                </code>
+            </pre>
+        </div>
+
+        <div>
+            <p>Card with text overlay</p>
+            <div class="img-card-container card-text-overlay">
+                <img class="img-container" src="/Images/shirt.jpg" alt="blue shirt">
+                <h2>Raymond Shirt</h2>
+                <div>Men blue pure cotton sustainable formal shirt</div>
+                <h3>₹1499</h3>
+                <div class="btn-container">
+                    <button class="add-to-cart-btn btn disable-btn">ADD TO CART</button>
+                    <button class="buy-now-btn btn disable-btn">BUY NOW</button>
+                </div> 
+            </div>    
+            <div class="out-of-stock-text">OUT OF STOCK</div>   
+            
+
+            <pre>
+                <code class="language-html">
+                    &lt;div class="img-card-container card-text-overlay"&gt;
+                        &lt;img class="img-container" src="Image-source" alt=""&gt;
+                        &lt;h2&gt;Image heading&lt;/h2&gt;
+                        &lt;div&gt;Image description&lt;/div&gt;
+                        &lt;h3&gt;selling price&lt;/h3&gt;
+                        &lt;div class="btn-container"&gt;
+                            &lt;button class="add-to-cart-btn btn disable-btn"&gt;ADD TO CART&lt;/button&gt;
+                            &lt;button class="buy-now-btn btn disable-btn"&gt;BUY NOW&lt;/button&gt;
+                        &lt;/div&gt;    
+                    &lt;/div&gt;
+                    &lt;div class="out-of-stock-text"&gt;OUT OF STOCK&lt;/div&gt;
+                </code>
+            </pre>
+        </div>
+
+        <div>
+             <p>Horizontal card</p>
+             <div class="horizontal-card">
+                <div><img class="horizontal-img-container" src="/Images/shirt.jpg" alt="blue shirt"></div>
+                <div class="horizontal-text-container"><h2>Raymond Shirt</h2>
+                    <div>Men blue pure cotton sustainable formal shirt</div>
+                    <h3>₹1499</h3>
+                    <div class="btn-container">
+                        <button class="add-to-cart-btn btn">ADD TO CART</button>
+                        <button class="buy-now-btn btn">BUY NOW</button>
+                    </div>
+                </div>
+             </div>
+
+             <pre>
+                <code class="language-html">
+                    &lt;div class="horizontal-card"&gt;
+                        &lt;div&gt;&lt;img class="horizontal-img-container" src="Image-source" alt=""&gt;&lt;/div&gt;
+                        &lt;div class="horizontal-text-container&gt;&lt;h2&gt;Image heading&lt;/h2&gt;
+                            &lt;div&gt;Image description&lt;/div&gt;
+                            &lt;h3&gt;selling price&lt;/h3&gt;
+                            &lt;div class="btn-container"&gt;
+                                &lt;button class="add-to-cart-btn btn"&gt;ADD TO CART&lt;/button&gt;
+                                &lt;button class="buy-now-btn btn"&gt;BUY NOW&lt;/button&gt;
+                            &lt;/div&gt;    
+                         &lt;/div&gt;
+                    &lt;/div&gt;
+                </code>
+            </pre>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-text">designed by Parul Gupta</div> 
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/parul-gupta-4a1413131/"><img class="social-media-icon" src="/Images/linkedin icon.png" alt="linkedin icon"></a> 
+            <a href="https://twitter.com/guptaparul1002"><img class="social-media-icon" src="/Images/twitter icon.png" alt="twitter icon"></a> 
+            <a href="https://github.com/parulgupta2001"><img class="social-media-icon" src="/Images/github icon.png" alt="github icon"></a> 
+        </
+        div>
+    </div> 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>      
+</body>
+</html>

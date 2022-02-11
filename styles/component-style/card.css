@@ -1,0 +1,98 @@
+*{
+  --add-to-cart-color: darkblue;
+  --buy-now-color:red; 
+  --color:white;
+}
+
+
+.main {
+    flex-direction: column;
+}
+
+.card-container,.img-card-container {
+    height:auto;
+    background-color: var(--background-color);
+    max-width:20vw;
+    border:solid 2px black;
+    border-radius: 0.5rem;
+    padding:0.3rem;
+}
+
+.shadow-card {
+    box-shadow:10px 5px 3px 2px var(--color-one); 
+}
+
+.img-card-container {
+    max-height: 45rem;
+}
+
+.img-container {
+    height:15rem;
+    width:20vw;
+}
+
+.add-to-cart-btn{
+    background-color: var(--add-to-cart-color);
+}
+
+.buy-now-btn{
+    background-color:var(--buy-now-color);
+}
+
+.badge {
+    background-color: var(--color-two);
+    color:var(--color);
+    width:3rem;
+    padding:0.2rem;
+    transform:translate(-20px,20px);
+}
+
+.btn {
+    border-radius: 0.5rem;
+    color: var(--color);
+    padding:0.4rem;
+    cursor:pointer;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dismiss-btn {
+   margin-left: auto;
+   width:1.3rem;
+}
+
+.out-of-stock-text {
+    background-color: var(--background-color);
+    position:absolute;
+    padding:0.5rem;
+    transform:translate(70px,-300px);
+}
+
+.card-text-overlay {
+    opacity:0.4;
+    position:relative;
+}
+
+.disable-btn {
+    cursor:default;
+}
+
+.horizontal-card {
+    max-width: 40vw;
+    height:13rem;
+    display: flex;
+    background-color: var(--background-color);
+    border:solid 2px var(--color-two);
+    border-radius:0.3rem;
+}
+
+.horizontal-img-container {
+    height:13rem;
+}
+
+.horizontal-text-container {
+    padding-left: 1rem;
+}
