@@ -1,6 +1,7 @@
 *{
   --add-to-cart-color: darkblue;
   --buy-now-color:red; 
+  --color:white;
 }
 
 
@@ -40,7 +41,7 @@
 
 .badge {
     background-color: var(--color-two);
-    color:white;
+    color:var(--color);
     width:3rem;
     padding:0.2rem;
     transform:translate(-20px,20px);
@@ -48,7 +49,7 @@
 
 .btn {
     border-radius: 0.5rem;
-    color: white;
+    color: var(--color);
     padding:0.4rem;
     cursor:pointer;
 }
