@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
-@import url(./component-style/index.css);
+@import url('component-style/index.css');
 * {
     font-family: 'Arvo', serif;
     --background-color:whitesmoke;
@@ -70,6 +70,7 @@ body {
     margin-left: 12rem;
     margin-top: 8rem;
     display: flex;
+    
     row-gap: 2rem;
 }
 
