@@ -1,0 +1,42 @@
+
+
+.button {
+    height:5rem;
+    width:60vw;
+    background-color: var(--background-color);
+    display:flex;
+    column-gap:8rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-contained {
+    background-color: var(--color-two);
+    color:var(--background-color);
+    cursor: pointer;
+    height:2rem;
+    width:6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.button-outlined {
+    border : solid 2px var(--color-two);
+    border-radius:1rem; 
+    padding:0.5rem;
+    cursor: pointer;
+}
+
+.floating-action-button {
+    border-radius:50%;
+    height:4rem;
+    width:4rem;
+}
+
+.add-to-cart-button {
+    padding:0.5rem;
+    display: flex;
+    column-gap: 0.5rem;
+}
