@@ -1,1 +1,41 @@
+.responsive-img-container{
+    width:100%;
+}
+
+.responsive-img {
+   width:70%; 
+   object-fit:cover;
+   height: auto;
+}
+
+.main{
+    flex-direction: column;
+}
+
+.round-img {
+    border-radius:50%;
+    border: solid 2px var(--color-two);
+    height:30rem;
+    width:30rem;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
