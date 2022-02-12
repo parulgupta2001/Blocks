@@ -1,1 +1,45 @@
+.input-container,input {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    background-color: var(--background-color);
+    padding:0.5rem;
+}
 
+.name-input, .password-input {
+    width:30rem;
+    background-color:white;
+}
+
+.name-input-success{
+    border: solid 2px green;
+}
+
+.password-input-error{
+    border: solid 2px red;
+}
+
+.input-validation {
+    font-size: small;
+}
+
+.name-input-validation {
+    color:green;
+}
+
+.password-input-validation {
+   color:red;
+}
+
+.input-btn-wrapper,.input-btn {
+    display: flex;
+}
+
+.input-btn-wrapper {
+    column-gap: 2rem;
+}
+
+.dropdown {
+    width:20rem;
+    height:2rem;
+}
