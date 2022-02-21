@@ -1,0 +1,31 @@
+main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50rem;
+}
+
+.navigation-bar-container a,.navigation-bar-container{
+    background-color: var(--color-two);
+    color:white;
+}
+
+.navigation-bar-container{
+    height:4rem;
+    width:60rem;
+    display: flex;
+     align-items: center;
+     padding: 0.5rem;
+}
+
+.nav-links {
+    margin-left: auto;
+    display: flex;
+    column-gap: 2rem;
+    font-size: 1rem;
+}
+
+.logo-container {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
