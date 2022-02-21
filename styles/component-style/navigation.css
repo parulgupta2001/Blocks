@@ -1,3 +1,6 @@
+* {
+    --basic-color:white;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -6,7 +9,7 @@ main{
 
 .navigation-bar-container a,.navigation-bar-container{
     background-color: var(--color-two);
-    color:white;
+    color:var(--basic-color);
 }
 
 .navigation-bar-container{
