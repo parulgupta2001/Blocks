@@ -1,26 +1,44 @@
-
-
-.dot {
-    height:1rem;
-    width:1rem;
-    border-radius: 50%;
-    background-color: brown;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top:0;
-    right:0;  
+.main{
+    margin-top: 10rem;
 }
 
-.notification-badge {
-    align-items: center;
+.badge-container{
     display: flex;
-    justify-content: center;
-    padding: 2rem;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: var(--primary-color);
+    flex-wrap: wrap; 
 }
 
-i {
-    font-size:2rem;
+.badge{
+    background-color: red;
+    height: 22px;
+    width: 22px;
+    display: flex;
+    border-radius: 99rem;
+    justify-content: center;
+    align-content: center;
+    color: var(--secondary-color);
     position: relative;
+}
+
+.icon-badge{
+    position: absolute;
+    transform: translate(1.9rem, -1rem);
+}
+
+.badge-for-avatar{
+    transform: translate(-80%, 110%);
+}
+
+.badge-container>div{
+    display: flex;
+    align-items: center;
+}
+
+.avatar-for-badge{
+    border-radius: 99rem;
+    border: 1px solid black;
+    width: 6rem;
+    height: 6rem;
 }
