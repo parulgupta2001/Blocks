@@ -1,0 +1,39 @@
+div.text-utilities-container{
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+
+.font-size-xl {
+    font-size: x-large;
+}
+
+.font-size-l {
+    font-size: large;
+}
+
+.font-size-m {
+    font-size: medium;
+}
+
+.font-size-s {
+    font-size: small;
+}
+
+.font-size-xs {
+    font-size: x-small;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.line-through-text {
+    text-decoration: line-through;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+}
