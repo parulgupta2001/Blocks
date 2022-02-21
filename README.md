@@ -1,4 +1,4 @@
-bricks
+
 bricks is a component library, using which one can build components at rocket speed. Just embed the below link in your HTML and you are ready to go.
 
 The components which are available in bricks are as follows:
