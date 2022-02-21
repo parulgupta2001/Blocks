@@ -1,1 +1,7 @@
-
+.list-horizontal{
+    display: flex;
+    color: var(--color-one);
+    background-color: var(--background-color);
+    height:5rem;
+    align-items: center;
+}
