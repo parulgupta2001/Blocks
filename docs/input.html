@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/main-style.css">
+    <link rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+    <script src="https://kit.fontawesome.com/44c4f0d450.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navigation-bar">
+        <div class="navigation-logo"><img src="/Images/main logo.png" alt="Website logo" ></div>
+        <div class="navigation-text">
+            <div class="text-one">Docs</div>
+            <div class="text-two">Support</div>
+        </div>
+    </nav>
+
+    <aside class="sidebar">
+        <h2>Components</h2>
+        <ul>
+            <li><a href="avatar.html">Avatar</a></li> 
+            <li><a href="alert.html">Alert</a></li>
+            <li><a href="badge.html">Badge</a></li>
+            <li><a href="button.html">Button</a></li>
+            <li><a href="card.html">Card</a></li>
+            <li><a href="image.html">Image</a></li>
+            <li><a href="input.html">Input</a></li>
+            <li><a href="text-utilities.html">Text Utilities</a></li>
+            <li><a href="lists.html">Lists</a></li>
+            <li><a href="grid.html">Grid</a></li>
+        </ul>   
+    </aside>
+
+    <div class="main">
+        <div class="description">
+          <div>Input is another way the user interacts with websites. They are used to get user's inputs and choices.</div>
+        </div>
+
+        <div>
+            <p>Input fields</p>
+            <div class="input-container">
+                <div class="input">
+                    <label for="name" class="input-name-label">Name</label>
+                    <input type="text" class="name-input">
+                </div>
+                <div class="input">    
+                    <label for="password" class="input-password-label">Password</label>
+                    <input type="text" class="password-input">
+                </div>
+            </div>
+
+
+            <pre>
+                <code class="language-html">
+                    &lt;div class="input-container">
+                        &lt;div class="input"&gt;
+                            &lt;label for="name" class="input-name-label"&gt;Name&lt;/label&gt;
+                            &lt;input type="text" class="name-input"&gt;
+                        &lt;/div&gt;
+                        &lt;div class="input"&gt;    
+                            &lt;label for="password" class="input-password-label"&gt;Password&lt;/label&gt;
+                            &lt;input type="text" class="password-input"&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;    
+                </code>
+            </pre>
+        </div>
+
+        <div>
+            <p>Input fields with Validation styles</p>
+            <div class="input-container">
+                <div class="input">
+                    <label for="name" class="input-name-label">Name</label>
+                    <input type="text" class="name-input name-input-success">
+                    <div class="input-validation name-input-validation">This username is valid</div>
+                </div>
+                <div class="input">    
+                    <label for="password" class="input-password-label">Password</label>
+                    <input type="text" class="password-input password-input-error">
+                    <div class="input-validation password-input-validation">The username and password don't match</div>
+                </div>
+            </div>
+
+
+            <pre>
+                <code class="language-html">
+                    &lt;div class="input-container"&gt;
+                        &lt;div class="input"&gt;
+                            &lt;label for="name" class="input-name-label"&gt;Name&lt;/label&gt;
+                            &lt;input type="text" class="name-input name-input-success"&gt;
+                            &lt;div class="input-validation name-input-validation"&gt;This usernameis valid&lt;/div&gt;
+                        &lt;/div&gt; 
+                        &lt;div class="input"&gt;   
+                            &lt;label for="password" class="input-password-label"&gt;Password&lt;/label&gt;
+                            &lt;input type="text" class="password-input password-input-error"&gt;
+                            &lt;div class="input-validation password-input-validation"&gt;This username and password dont't match&lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;    
+                </code>
+            </pre>
+        </div>
+            
+        
+        <div>
+            <p>Radio buttons</p>                                      
+            <div class="input-container">
+                <div>Select your preffered channel to recieve OTP</div>
+                <div class="input-btn-wrapper">
+                    <div class="input-btn">
+                        <input type="radio" name="contact" id="email">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-btn">
+                        <input type="radio" name="contact" id="text">
+                        <label for="text">Text</label>
+                    </div>
+                    <div class="input-btn">
+                       <input type="radio" name="contact" id="call">
+                       <label for="call">Call</label>
+                    </div>
+                </div>
+            </div>
+
+
+            <pre>
+                <code class="language-html"&gt;
+                    &lt;div class="input-container">
+                        &lt;div&gt;Select your preffered channel to recieve OTP&lt;/div&gt;
+                        &lt;div class="input-btn-wrapper"&gt;
+                            &lt;div class="input-btn"&gt;
+                                &lt;input type="radio" name="contact" id="email"&gt;
+                                &lt;label for="email">Email&lt;/label&gt;
+                            &lt;/div&gt;
+                            &lt;div class="input-btn"&gt;
+                                &lt;input type="radio" name="contact" id="text"&gt;
+                                &lt;label for="text"&gt;Text&lt;/label&gt;
+                            &lt;/div&gt;
+                            &lt;div class="input-btn"&gt;
+                                &lt;input type="radio" name="contact" id="call"&gt;
+                                &lt;label for="call"&gt;Call&lt;/label&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt; 
+                    &lt;/div&gt;       
+                </code>
+            </pre>    
+        </div>
+
+         
+        <div>
+            <p>Checkbox</p>                                      
+            <div class="input-container">
+                <div>Show watches from below brands</div>
+                <div class="input-btn-wrapper">
+                    <div class="input-btn">
+                        <input type="checkbox" name="watch" id="fastrack">
+                        <label for="fastrack">Fastrack</label>
+                    </div>
+                    <div class="input-btn">
+                        <input type="checkbox" name="watch" id="titan">
+                        <label for="titan">Titan</label>
+                    </div>
+                    <div class="input-btn">
+                       <input type="checkbox" name="watch" id="fossil">
+                       <label for="fossil">Fossil</label>
+                    </div>
+                    <div class="input-btn">
+                        <input type="checkbox" name="watch" id="casio">
+                        <label for="casio">Casio</label>
+                     </div>
+                </div>
+            </div>
+
+
+            <pre>
+                <code class="language-html">
+                    &lt;div class="input-container"&gt;
+                        &lt;div&gt;Show watches from below brands&lt;/div&gt;
+                        &lt;div class="input-btn-wrapper"&gt;
+                            &lt;div class="input-btn"&gt;
+                                &lt;input type="checkbox" name="watch" id="fastrack"&gt;
+                                &lt;label for="fastrack">Fastarck&lt;/label&gt;
+                            &lt;/div&gt;
+                            &lt;div class="input-btn"&gt;
+                                &lt;input type="checkbox" name="watch" id=titan"&gt;
+                                &lt;label for="titan"&gt;Titan&lt;/label&gt;
+                            &lt;/div&gt;
+                            &lt;div class="input-btn"&gt;
+                                &lt;input type="checkbox" name="watch" id="fossil"&gt;
+                                &lt;label for="fossil"&gt;Fossil&lt;/label&gt;
+                            &lt;/div&gt;
+                            &lt;div class="input-btn"&gt;
+                                &lt;input type="checkbox" name="watch" id="casio"&gt;
+                                &lt;label for="casio"&gt;Casio&lt;/label&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;        
+                </code>
+            </pre>    
+        </div>
+
+        <div>
+            <p>Dropdown</p>
+            <div class="input-container">
+                <label for="payment">Select your mode of payment:</label>
+                <select name="payment" id="payment" class="dropdown">
+                    <option value="upi">UPI</option>
+                    <option value="net">Net Banking</option>
+                    <option value="credit">Credit Card</option>
+                    <option value="debit">Debit Card</option>
+                    <option value="wallet">Wallet</option>
+                    <option value="paypal">Paypal</option>
+                </select>
+             </div>
+
+
+            <pre>
+                <code class="language-html">
+                    &lt;div class="input-container"&gt;
+                        &lt;label for="payment"&gt;Select your mode of payment:&lt;/label&gt;
+                        &lt;select name="payment" id="payment" class="dropdown"&gt;
+                            &lt;option value="upi"&gt;UPI&lt;/option&gt;
+                            &lt;option value="net"&gt;Net Banking&lt;/option&gt;
+                            &lt;option value="credit"&gt;Credit Card&lt;/option&gt;
+                            &lt;option value="debit"&gt;Debit Card&lt;/option&gt;
+                            &lt;option value="wallet"&gt;Wallet&lt;/option&gt;
+                            &lt;option value="paypal"&gt;Paypal&lt;/option&gt;
+                        &lt;/select&gt;
+                    &lt;/div&gt;   
+                </code>
+            </pre>    
+        </div>                    
+    </div>
+
+  
+  <div class="footer">
+      <div class="footer-text">designed by Parul Gupta</div> 
+      <div class="social-media">
+          <a href="https://www.linkedin.com/in/parul-gupta-4a1413131/"><img class="social-media-icon" src="/Images/linkedin icon.png" alt="linkedin icon"></a> 
+          <a href="https://twitter.com/guptaparul1002"><img class="social-media-icon" src="/Images/twitter icon.png" alt="twitter icon"></a> 
+          <a href="https://github.com/parulgupta2001"><img class="social-media-icon" src="/Images/github icon.png" alt="github icon"></a> 
+      </div>
+  </div> 
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script> 
+</body>
+</html>
+
+
