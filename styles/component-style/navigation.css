@@ -4,8 +4,7 @@ main{
     row-gap: 50rem;
 }
 
-.navigation-bar-container a,.navigation-bar-container{
-    background-color: var(--color-two);
+.navigation-bar-container a{
     color:white;
 }
 
@@ -15,6 +14,7 @@ main{
     display: flex;
      align-items: center;
      padding: 0.5rem;
+     background-color: var(--color-two);
 }
 
 .nav-links {
@@ -27,5 +27,6 @@ main{
 .logo-container {
   font-size: 2rem;
   font-weight: bolder;
+  color:white ;
 }
 

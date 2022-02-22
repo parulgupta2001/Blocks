@@ -8,15 +8,11 @@
     flex-direction: column;
 }
 
-.badge-container{
+.badge-icon-container,.badge-avatar-container{
     background-color: var(--background-color);
     height:8rem;
     display: flex;
     align-items: center;
-}
-
-.badge-icon-container,.badge-avatar-container{
-    display: flex;
     column-gap: 2rem;
 }
 
@@ -41,7 +37,7 @@
 }
 
 .dot-one {
-    transform: translate(-390%,0%);
+    transform: translate(-390%,-60%);
 }
 
 .badge-avatar-three{
@@ -52,8 +48,12 @@
     border:solid 4px var(--badhe-color-two); 
 }
 
-.dot-two,.dot-three,.avatar-dot{
-    transform: translate(-190%,0%);
+.dot-two,.dot-three{
+    transform: translate(-190%,-60%);
+}
+
+.avatar-dot{
+    transform: translate(-190%,-100%);
 }
 
 .badge-avatar-container img{

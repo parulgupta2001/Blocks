@@ -13,13 +13,13 @@
     height:auto;
     background-color: var(--background-color);
     max-width:20vw;
-    border:solid 2px black;
+    border:solid 2px var(--color-two);
     border-radius: 0.5rem;
     padding:0.3rem;
 }
 
 .shadow-card {
-    box-shadow:10px 5px 3px 2px var(--color-one); 
+    box-shadow:10px 5px 3px 2px var(--color-two); 
 }
 
 .img-card-container {
@@ -63,7 +63,6 @@
    margin-left: auto;
    width:1.3rem;
 }
-
 .out-of-stock-text {
     background-color: var(--background-color);
     position:absolute;
