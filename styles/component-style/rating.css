@@ -1,7 +1,14 @@
-.list-horizontal{
-    display: flex;
-    color: var(--color-one);
+.rating-container{
     background-color: var(--background-color);
     height:5rem;
+    display: flex;
     align-items: center;
+}
+
+.list-horizontal{
+    display: flex;  
+}
+
+.rating-color{
+    color: var(--color-one);
 }
