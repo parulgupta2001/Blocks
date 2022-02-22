@@ -1,44 +1,71 @@
+*{
+    --badge-color-one:brown;
+    --badhe-color-two:green;
+    --badge-color-three:red;
+}
+
 .main{
-    margin-top: 10rem;
+    flex-direction: column;
 }
 
 .badge-container{
+    background-color: var(--background-color);
+    height:8rem;
     display: flex;
-    justify-content: space-around; 
     align-items: center;
-    background-color: var(--primary-color);
-    flex-wrap: wrap; 
 }
 
-.badge{
-    background-color: red;
-    height: 22px;
-    width: 22px;
+.badge-icon-container,.badge-avatar-container{
     display: flex;
-    border-radius: 99rem;
+    column-gap: 2rem;
+}
+
+.badge-icon-container img{
+    height:3.5rem;
+    width:3.5rem;
+}
+
+.dot-container{
+    border-radius: 50%;
+    height:1.5rem;
+    width:1.5rem;
+    background-color: var(--badge-color-one);
+    display:flex;
+    align-items: center;
     justify-content: center;
-    align-content: center;
-    color: var(--secondary-color);
-    position: relative;
 }
 
-.icon-badge{
-    position: absolute;
-    transform: translate(1.9rem, -1rem);
+.badge-icon-container .badge-icon-one {
+    height: 4rem;
+    width:8rem;
 }
 
-.badge-for-avatar{
-    transform: translate(-80%, 110%);
+.dot-one {
+    transform: translate(-390%,0%);
 }
 
-.badge-container>div{
-    display: flex;
-    align-items: center;
+.badge-avatar-three{
+    border:solid 4px var(--badge-color-three);
 }
 
-.avatar-for-badge{
-    border-radius: 99rem;
-    border: 1px solid black;
-    width: 6rem;
-    height: 6rem;
+.badge-avatar-four{
+    border:solid 4px var(--badhe-color-two); 
+}
+
+.dot-two,.dot-three,.avatar-dot{
+    transform: translate(-190%,0%);
+}
+
+.badge-avatar-container img{
+    height:5rem;
+    width:5rem;
+    border-radius: 50%;
+}
+
+.avatar-dot-one{
+    background-color: var(--badhe-color-two);
+}
+
+.avatar-dot-two{
+    background-color: var(--badge-color-three);
 }
