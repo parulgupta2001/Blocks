@@ -63,12 +63,12 @@ a {
 body {
     gap: 2rem;
     display:grid;
-    grid-template-areas: "navigation-bar navigation-bar navigation-bar navigation-bar"
-                         "sidebar main main main"
-                         "sidebar main main main"
-                         "sidebar main main main"
-                         "sidebar main main main"
-                         "footer footer footer footer";
+    grid-template-areas: "navigation-bar navigation-bar navigation-bar navigation-bar navigation-bar navigation-bar navigation-bar navigation-bar"
+                         "sidebar main main main main main main main"
+                         "sidebar main main main main main main main"
+                         "sidebar main main main main main main main"
+                         "sidebar main main main main main main main"
+                         "footer footer footer footer footer footer footer footer";
 
 }
 
@@ -76,10 +76,9 @@ body {
     grid-area:main;
     margin-left: 12rem;
     margin-top: 8rem;
-    display: flex;
-    
     row-gap: 2rem;
 }
+
 
 p {
     font-weight: bold;
