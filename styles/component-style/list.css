@@ -1,1 +1,17 @@
+.unordered-list  li {
+    list-style-type: disc;
+}
 
+.stacked-list-item {
+    border:solid 1px var(--color-two);
+    width:20rem;
+    height:4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lists-container {
+    background-color:var(--background-color) ;
+    padding: 2rem;
+}
