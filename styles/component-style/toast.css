@@ -1,1 +1,15 @@
+.toast-msg {
+    display :none;
+    background-color: #fefefe;
+    border-radius: 0.6rem;
+    padding:1rem;
+    width:20%;
+    transform: translate(600px,-80px);
+    border: solid 1px var(--color-two);
+}
 
+.toast-container {
+    background-color: var(--background-color);
+    padding:3rem;
+    gap: 2rem;
+}

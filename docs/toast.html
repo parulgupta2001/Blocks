@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>   
+     <link rel="stylesheet" href="/styles/main-style.css">
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+    <script src="https://kit.fontawesome.com/44c4f0d450.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navigation-bar">
+        <div class="navigation-logo"><img src="/Images/main logo.png" alt="Website logo" ></div>
+        <div class="navigation-text">
+            <div class="text-one"><a href="https://github.com/parulgupta2001/Bricks">Docs</a></div>
+            <div class="text-two"><a href="/index.html">Home</a></div>
+        </div>
+    </nav>
+
+    <aside class="sidebar">
+        <h2>Components</h2>
+        <ul>
+           <li><a href="avatar.html">Avatar</a></li> 
+            <li><a href="alert.html">Alert</a></li>
+            <li><a href="badge.html">Badge</a></li>
+            <li><a href="button.html">Button</a></li>
+            <li><a href="card.html">Card</a></li>
+            <li><a href="image.html">Image</a></li>
+            <li><a href="input.html">Input</a></li>
+            <li><a href="text-utilities.html">Text Utilities</a></li>
+            <li><a href="navigation.html">Navigation</a></li>
+            <li><a href="rating.html">Rating</a></li>
+            <li><a href="list.html">List</a></li>
+            <li><a href="modal.html">Modal</a></li>
+            <li><a href="toast.html">Toast</a></li>
+        </ul>   
+    </aside>
+
+    <div class="main">
+        <div class="description">
+            <div>A toast is shown to users with readable message content at the top or bottom of the screen which disappears automatically after a few seconds.</div>
+        </div>
+
+
+    <div>
+        <div class="toast-container">
+        <button class="toast-btn">Show Toast</button>
+        <div class="toast-msg"><p>This is demo Toast</p></div>
+        </div>
+
+        <pre>
+            <code class="language-html">
+                &lt;button class="toast-btn"&gt;Show Toast&lt;/button&gt;
+                &lt;div class="toast-msg"&gt;&lt;p&gt;This is demo Toast&lt;/p&gt;&lt;/div&gt;
+            </code>
+        </pre>
+    
+        <h3>Javascript</h3>
+            <pre>
+                <code class="language-javascript">
+                    const btn = document.querySelector(".toast-btn");
+                    const msg = document.querySelector(".toast-msg");
+                 
+                    btn.addEventListener("click", () => {
+                    msg.style.display = "block"
+                    setTimeout(()=> msg.style.display = "none",3000)
+                    })
+                </code>
+            </pre>
+    </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-text">designed by Parul Gupta</div> 
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/parul-gupta-4a1413131/"><img class="social-media-icon" src="/Images/linkedin icon.png" alt="linkedin icon"></a> 
+            <a href="https://twitter.com/guptaparul1002"><img class="social-media-icon" src="/Images/twitter icon.png" alt="twitter icon"></a> 
+            <a href="https://github.com/parulgupta2001"><img class="social-media-icon" src="/Images/github icon.png" alt="github icon"></a> 
+        </div>
+    </div> 
+
+    <script src="docs.js/toast.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script> 
+
+</body>
+</html>
+
+
+
+
+
+
 
