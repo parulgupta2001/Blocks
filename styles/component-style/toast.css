@@ -1,6 +1,6 @@
 .toast-msg {
     display :none;
-    background-color: #fefefe;
+    background-color: var(--background-color-one);
     border-radius: 0.6rem;
     padding:1rem;
     width:20%;
