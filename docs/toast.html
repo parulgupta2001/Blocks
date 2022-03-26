@@ -40,73 +40,36 @@
 
     <div class="main">
         <div class="description">
-            <div>Below are the various text utility classes which will help you modify your text at rocket speed:</div>
+            <div>A toast is shown to users with readable message content at the top or bottom of the screen which disappears automatically after a few seconds.</div>
         </div>
 
-        <p>Headings</p>
-        <div class="text-utilities-container">
-            <h6>H6 Heading</h6>
-            <h5>H5 Heading</h5>
-            <h4>H4 Heading</h4>
-            <h3>H3 Heading</h3>
-            <h2>H2 Heading</h2>
-            <h1>H1 Heading</h1>
+
+    <div>
+        <div class="toast-container">
+        <button class="toast-btn">Show Toast</button>
+        <div class="toast-msg"><p>This is demo Toast</p></div>
         </div>
 
         <pre>
             <code class="language-html">
-                &lt;h6&gt;H6 Heading&lt;/h6&gt;
-                &lt;h5&gt;H5 Heading&lt;/h5&gt;
-                &lt;h4&gt;H4 Heading&lt;/h4&gt;
-                &lt;h3&gt;H3 Heading&lt;/h3&gt;
-                &lt;h2&gt;H2 Heading&lt;/h2&gt;
-                &lt;h1&gt;H1 Heading&lt;/h1&gt;
+                &lt;button class="toast-btn"&gt;Show Toast&lt;/button&gt;
+                &lt;div class="toast-msg"&gt;&lt;p&gt;This is demo Toast&lt;/p&gt;&lt;/div&gt;
             </code>
         </pre>
     
-    
-
-        <p>Text Sizes</p>
-        <div class="text-utilities-container">
-            <div class="font-size-xs">Extra small text</div>
-            <div class="font-size-s">Small text</div>
-            <div class="font-size-m">Medium text</div>
-            <div class="font-size-l">Large text</div>
-            <div class="font-size-xl">Extra large text</div>
-        </div>
-        <pre>
-            <code class="language-html">
-                &lt;div class="font-size-xs"&gt;Extra small text&lt;/div&gt;
-                &lt;div class="font-size-s"&gt;Small text&lt;/div&gt;
-                &lt;div class="font-size-m"&gt;Medium text&lt;/div&gt;
-                &lt;div class="font-size-l"&gt;Large text&lt;/div&gt;
-                &lt;div class="font-size-xl"&gt;Extra large text&lt;/div&gt;
-            </code>
-        </pre>
-    
-
-        <p>Text Decoration</p>
-        <div class="text-utilities-container">
-            <div class="blue-text">This is blue text</div>
-            <div class="line-through-text">This is line through text.</div>
-        </div>
-        <pre>
-            <code class="language-html">
-                &lt;div class="blue-text"&gt;This is blue text&lt;/div&gt;
-                &lt;div class="line-through-text"&gt;This is line through text.&lt;/div&gt;
-            </code>
-        </pre>
-
-
-        <p>Text Center</p>
-        <div class="text-utilities-container">
-            <div class="text-center">Text at the center of the container.</div>
-        </div>
-        <pre>
-            <code class="language-html">
-                &lt;div class="text-center"&gt;Text at the center of the container.&lt;/div&gt;
-            </code>
-        </pre>
+        <h3>Javascript</h3>
+            <pre>
+                <code class="language-javascript">
+                    const btn = document.querySelector(".toast-btn");
+                    const msg = document.querySelector(".toast-msg");
+                 
+                    btn.addEventListener("click", () => {
+                    msg.style.display = "block"
+                    setTimeout(()=> msg.style.display = "none",3000)
+                    })
+                </code>
+            </pre>
+    </div>
     </div>
 
     <div class="footer">
@@ -118,8 +81,16 @@
         </div>
     </div> 
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script src="docs.js/toast.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
     <script>hljs.highlightAll();</script> 
-    </body>
-    </html>
-                       
+
+</body>
+</html>
+
+
+
+
+
+
+
