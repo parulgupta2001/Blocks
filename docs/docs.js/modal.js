@@ -1,6 +1,6 @@
-var modal = document.querySelector(".modal");
-var btn = document.querySelector("#myBtn");
-var span = document.querySelector(".close");
+const modal = document.querySelector(".modal");
+const btn = document.querySelector("#myBtn");
+const span = document.querySelector(".close");
 
 
 btn.addEventListener("click", () => 
