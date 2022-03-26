@@ -51,7 +51,7 @@ a {
 
 .sidebar{
     grid-area: sidebar;
-    line-height: 2.5rem;
+    line-height: 2rem;
     background-color: var(--background-color);
     border-radius: 1rem;
     height: 50rem;
