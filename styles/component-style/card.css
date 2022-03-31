@@ -5,10 +5,6 @@
 }
 
 
-.main {
-    flex-direction: column;
-}
-
 .card-container,.img-card-container {
     height:auto;
     background-color: var(--background-color);

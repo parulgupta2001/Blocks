@@ -4,9 +4,6 @@
     --badge-color-three:red;
 }
 
-.main{
-    flex-direction: column;
-}
 
 .badge-icon-container,.badge-avatar-container{
     background-color: var(--background-color);
