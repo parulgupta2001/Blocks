@@ -60,7 +60,7 @@ a {
     color:var(--color-one);
 }
 
-body {
+.main-body {
     gap: 2rem;
     display:grid;
     grid-template-areas: "navigation-bar navigation-bar navigation-bar navigation-bar"
